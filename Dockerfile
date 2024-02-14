@@ -4,4 +4,4 @@ RUN unzip -j hostd_linux_amd64.zip hostd
 RUN mv -t  /usr/local/bin hostd
 RUN echo $PATH
 
-ENTRYPOINT ["hostd"]
+ENTRYPOINT ["hostd"] 
